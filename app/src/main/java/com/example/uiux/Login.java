@@ -10,6 +10,7 @@ import android.widget.Button;
 public class Login extends AppCompatActivity {
 
     Button btnToSignUp;
+    Button btnToProfile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,15 @@ public class Login extends AppCompatActivity {
             public void onClick(View view) {
                 Intent toSignUp = new Intent(Login.this, MainActivity.class);
                 startActivity(toSignUp);
+            }
+        });
+
+        btnToProfile = (Button) findViewById(R.id.btnToProfile);
+        btnToProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toProfile = new Intent(Login.this, Profile.class);
+                startActivity(toProfile);
             }
         });
     }

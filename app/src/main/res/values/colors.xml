@@ -6,4 +6,10 @@
     <color name="colorAzur">#F1F5F8</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorDarkPink">#fe104d</color>
+    <color name="colorGraylight">#FAFAFA</color>
+    <color name="colorStartGreen">#008B8B</color>
+    <color name="colorEndGreen">#4DD6D6</color>
+    <color name="colorCoral">#FF7F50</color>
+    <color name="colorSteelBlue">#4682B4</color>
+    <color name="colorIndianRed">#CD5C5C</color>
 </resources>
