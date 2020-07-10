@@ -97,7 +97,7 @@
             android:text="LOGIN"
             android:textColor="#fff"
             android:background="@drawable/buttonstyle"
-            android:id="@+id/btnToBeranda"
+            android:id="@+id/btnToHome"
             android:drawableRight="@drawable/send"/>
 
     </LinearLayout>

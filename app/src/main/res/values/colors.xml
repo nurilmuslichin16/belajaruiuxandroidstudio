@@ -12,4 +12,11 @@
     <color name="colorCoral">#FF7F50</color>
     <color name="colorSteelBlue">#4682B4</color>
     <color name="colorIndianRed">#CD5C5C</color>
+    <color name="colorbackground">#FCFCFC</color>
+    <color name="colorlightgrayline">#EDEDED</color>
+    <color name="colorbrown">#A52A2A</color>
+    <color name="colorcadetblue">#5F9EAD</color>
+    <color name="colorchocolate">#D2691E </color>
+    <color name="colorlimegreen">#38A838</color>
+    <color name="colordarkcoral">#FF7F50</color>
 </resources>

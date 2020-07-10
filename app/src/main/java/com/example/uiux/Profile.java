@@ -15,6 +15,8 @@ public class Profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
+        getSupportActionBar().hide();
+
         btnFollowMe = (Button) findViewById(R.id.btnFollowMe);
         btnFollowMe.setOnClickListener(new View.OnClickListener() {
             @Override
