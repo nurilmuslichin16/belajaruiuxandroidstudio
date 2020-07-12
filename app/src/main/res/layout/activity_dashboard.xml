@@ -65,7 +65,8 @@
         <androidx.cardview.widget.CardView
             android:layout_width="160dp"
             android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_margin="10dp"
+            android:id="@+id/card_profile">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -77,7 +78,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/bgcircle2"
-                    android:src="@drawable/hotel"
+                    android:src="@drawable/profile_dashboard"
                     android:padding="10dp"/>
 
                 <TextView
@@ -85,7 +86,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:textStyle="bold"
-                    android:text="Hotel"/>
+                    android:text="Profile"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -99,7 +100,7 @@
                 <TextView
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="Find the closest hotel"
+                    android:text="Check your profile"
                     android:padding="10dp"
                     android:gravity="center"/>
 

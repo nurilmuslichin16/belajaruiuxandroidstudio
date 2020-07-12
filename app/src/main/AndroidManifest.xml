@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CuacaMalam"></activity>
+        <activity android:name=".ProfileDashboard"></activity>
+        <activity android:name=".CuacaMalam" />
         <activity android:name=".Cuaca" />
         <activity android:name=".Dashboard" />
         <activity android:name=".Profile" />
