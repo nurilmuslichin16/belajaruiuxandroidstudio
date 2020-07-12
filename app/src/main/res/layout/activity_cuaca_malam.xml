@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".CuacaMalam">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PEKALONGAN"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/colorMalam"
+        android:id="@+id/city"/>
+
+    <TextView
+        android:layout_below="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INDONESIA"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorMalam"
+        android:id="@+id/country"/>
+
+    <TextView
+        android:layout_below="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRIDAY 10 AM"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorMalam"
+        android:id="@+id/daytime"/>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/daytime"
+        android:id="@+id/imgNight"
+        android:src="@drawable/night"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/degree"
+        android:text="9*C"
+        android:textSize="50sp"
+        android:layout_below="@+id/imgNight"
+        android:textColor="@color/colorMalam"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLEARING"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@id/degree"
+        android:textColor="@color/colorMalam"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ket"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:weightSum="3"
+        android:layout_below="@+id/ket">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HUMIDITY"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/colorMalam"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="80%"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/colorMalam"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WIND"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/colorMalam"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="7 Km/hr"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/colorMalam"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REAL FEEL"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/colorMalam"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="7*C"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/colorMalam"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

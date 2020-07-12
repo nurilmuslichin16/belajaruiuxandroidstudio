@@ -19,4 +19,6 @@
     <color name="colorchocolate">#D2691E </color>
     <color name="colorlimegreen">#38A838</color>
     <color name="colordarkcoral">#FF7F50</color>
+    <color name="colorSiang">#000000</color>
+    <color name="colorMalam">#FFFFFF</color>
 </resources>

@@ -17,6 +17,7 @@
         android:clipToPadding="false">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/card_cuaca"
             android:layout_width="160dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
@@ -31,7 +32,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/bgcircle1"
-                    android:src="@drawable/restoran"
+                    android:src="@drawable/cuaca"
                     android:padding="10dp"/>
 
                 <TextView
@@ -39,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:textStyle="bold"
-                    android:text="Restaurant"/>
+                    android:text="Cuaca"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -53,7 +54,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Find the nearest restaurant"
+                    android:text="Check the weather today"
                     android:padding="10dp"
                     android:gravity="center"/>
 
