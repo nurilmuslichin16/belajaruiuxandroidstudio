@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfileDashboard"></activity>
+        <activity android:name=".ShareApp"></activity>
+        <activity android:name=".Product" />
+        <activity android:name=".ProfileDashboard" />
         <activity android:name=".CuacaMalam" />
         <activity android:name=".Cuaca" />
         <activity android:name=".Dashboard" />

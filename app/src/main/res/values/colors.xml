@@ -22,4 +22,6 @@
     <color name="colorSiang">#000000</color>
     <color name="colorMalam">#FFFFFF</color>
     <color name="colordarkred">#DC143C</color>
+    <color name="colorofBlack">#181818</color>
+    <color name="colorGrey">#3C3A3A</color>
 </resources>

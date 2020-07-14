@@ -120,7 +120,8 @@
         <androidx.cardview.widget.CardView
             android:layout_width="160dp"
             android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_margin="10dp"
+            android:id="@+id/card_product">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -132,7 +133,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/bgcircle3"
-                    android:src="@drawable/hospital"
+                    android:src="@drawable/cart"
                     android:padding="10dp"/>
 
                 <TextView
@@ -140,7 +141,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:textStyle="bold"
-                    android:text="Hospital"/>
+                    android:text="Shopping"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -154,7 +155,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Find the nearest hospital"
+                    android:text="Shop for your needs"
                     android:padding="10dp"
                     android:gravity="center"/>
 
@@ -165,7 +166,8 @@
         <androidx.cardview.widget.CardView
             android:layout_width="160dp"
             android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_margin="10dp"
+            android:id="@+id/card_share">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -177,7 +179,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/bgcircle4"
-                    android:src="@drawable/airplane"
+                    android:src="@drawable/share"
                     android:padding="10dp"/>
 
                 <TextView
@@ -185,7 +187,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:textStyle="bold"
-                    android:text="Airport"/>
+                    android:text="Share"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -199,7 +201,7 @@
                 <TextView
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="Find the nearest airport"
+                    android:text="Share this app"
                     android:padding="10dp"
                     android:gravity="center"/>
 
@@ -264,7 +266,8 @@
         <androidx.cardview.widget.CardView
             android:layout_width="160dp"
             android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_margin="10dp"
+            android:id="@+id/card_exit">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -276,7 +279,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/bgcircle6"
-                    android:src="@drawable/train"
+                    android:src="@drawable/exit"
                     android:padding="10dp"/>
 
                 <TextView
@@ -284,7 +287,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:textStyle="bold"
-                    android:text="Train"/>
+                    android:text="Exit"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -298,7 +301,7 @@
                 <TextView
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="Find the closest station"
+                    android:text="Close appliction"
                     android:padding="10dp"
                     android:gravity="center"/>
 
